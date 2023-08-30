@@ -20,8 +20,18 @@ Initially we have a create new contact button on right side it will open new con
 Once a contact is added, now we have contact grid below create new contact button
 - Each contact have their details, edit button and delete button.
 
+![Screenshot (121)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/b73448ba-ce27-456a-8afd-a59eee548fa2)
+![Screenshot (125)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/f9d3e461-800a-40bf-a9d0-b26f48510329)
+![Screenshot (127)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/e552f4ef-19bd-47f1-be0e-4badae4e8f10)
+
+
+
 ## Chart and Maps page
 On charts and maps page we have dashboard opend initially and also buttons to navigate to line-chart and map
+
+![Screenshot (122)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/1b22d195-aedc-4b43-9d36-8eebae971a6d)
+![Screenshot (123)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/fa9dac96-c20a-45c7-af2e-4d792228fbdf)
+![Screenshot (124)](https://github.com/Kapil-Badgujjar/Taiyo.AI/assets/97542536/a8612fe4-77b7-4ed6-8713-d7cb71e74c19)
 
 
 
