@@ -8,7 +8,7 @@ function App() {
 
   return (
     <Provider store={store}>      {/* Wrapping our application in Provider so we can access the redux store anywhere */}
-      <div className="h-screen">
+      <div className="">
 
         {/* Header section of our application */}
         <header className="App-header">
@@ -18,17 +18,16 @@ function App() {
         </header>
 
         {/* Main section of our application */}
-        <main className="flex flex-col sm:flex-row w-full">
+        <main className="flex flex-col sm:flex-row w-full min-h-full">
 
           {/* Side menu component ( contact button and charts button) */}
           <Sidebar /> 
 
           {/* Right with Outlet to render other routed components */}
-          <div className="w-full h-fit]">
+          <div className="w-full min-h-fit overflow-y-scroll">
             <Outlet /> {/* outlet from react-router-dom */}
           </div>
         </main>
-
       </div>
     </Provider>
   );

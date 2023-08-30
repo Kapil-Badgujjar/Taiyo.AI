@@ -9,8 +9,8 @@ export default function FullView() {
         <div>
             <Dashboard />
         </div>
-        <div className='h-fit'>
-            <div className='grid lg:grid-cols-2 gap-8 h-96'>
+        <div className=''>
+            <div className='grid lg:grid-cols-2 gap-8 h-48 sm:h-96'>
                 <LineChart />
                 <LeafletMap />
             </div>
