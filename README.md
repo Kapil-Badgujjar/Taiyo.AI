@@ -2,6 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Steps to run this project
+- Clone this project to you local machine
+- Open in VSCode (Recommended)
+- Go to root directory of the project
+- Open terminal and run npm install to install all the dependencies
+- Wait untill process finished
+- Run the command npm start to start the project
+
+
+## Home page 
+On home page you have side menu in left side with two buttons 'Contacts' and 'Charts and Maps' (*on desktop). In mobile view menu is on top.
+On the right side other components render
+
+Initially we have a create new contact button on right side it will open new contact form
+
+Once a contact is added, now we have contact grid below create new contact button
+- Each contact have their details, edit button and delete button.
+
+## Chart and Maps page
+On charts and maps page we have dashboard opend initially and also buttons to navigate to line-chart and map
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
