@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Contact from '../Contact/Contact'
 import { useSelector } from 'react-redux';
 import { selectAllContact } from '../../features/contact/contactSlice'
@@ -13,11 +13,6 @@ type contact = {
 export default function Contacts() {
   const navigate = useNavigate();
   const contactsList: contact[] = useSelector(selectAllContact); //select all contacts
-
-  useEffect(() => {
-    console.log(contactsList);
-  },[]);
-
 
   return (
           <>

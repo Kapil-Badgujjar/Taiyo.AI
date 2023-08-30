@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createBrowserRouter, RouterProvider, Outlet} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Contacts from './components/Contacts/Contacts';
 import NewContactForm from './components/NewContactForm/NewContactForm';
 import EditContactForm from './components/EditContactForm/EditContactForm';

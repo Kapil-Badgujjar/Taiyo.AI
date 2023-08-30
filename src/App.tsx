@@ -12,7 +12,7 @@ function App() {
 
         {/* Header section of our application */}
         <header className="App-header">
-          <h1 className="bg-blue-950 text-white text-center text-xl md:text-4xl p-4 sm:p-6 font-bold">
+          <h1 className="bg-white text-purple-900 text-center text-xl md:text-4xl p-4 sm:p-6 font-bold drop-shadow-lg">
             Contact Management Application.
           </h1>
         </header>
