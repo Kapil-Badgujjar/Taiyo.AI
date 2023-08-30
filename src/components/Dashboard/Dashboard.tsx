@@ -16,6 +16,7 @@ export default function Dashboard() {
 
       return (
         <div>
+            <h1 className='text-2xl sm:text-3xl font-bold text-center text-purple-700 py-4'>Full Statistics</h1>
             <div>
                 <hr/>
                 {/* Mapping over data and rendering the values*/}

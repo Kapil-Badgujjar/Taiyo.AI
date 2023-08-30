@@ -29,9 +29,9 @@ export default function LineChart() {
     });
     console.log(dataArray);
     return (
-        <div>
+        <div className='w-full p-4 box-border'>
             <div>
-                <h1>Line Chart</h1>
+                <h1 className='text-2xl sm:text-3xl font-bold text-center text-purple-700 py-4'>Daily case fluctuations</h1>
             </div>
             <div>
                 {/* ploting line graph */}

@@ -22,12 +22,12 @@ export default function Contact(props: contactInterface) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   return (
-    <div className="border-2 border-sky-500 p-1">
-        <div>
+    <div className="outline outline-1 outline-purple-300 p-8 drop-shadow rounded-md">
+        <div className='py-2 font-bold'>
             <div><span>Name: </span><span>{props.item.firstName + " " + props.item.lastName}</span></div>
             <div>Status: {props.item.isActive ? "Active":"Inactive"}</div>
         </div>
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-4 pt-4">
             <button onClick={()=>{navigate(`/edit-contact/${props.item.id}`)}} className="bg-green-600 text-white">EDIT</button>
             <button onClick={()=>{dispatch(deleteContact({id: props.item.id}))}} className="bg-red-600 text-white">DELETE</button>
         </div>

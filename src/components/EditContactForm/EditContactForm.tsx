@@ -35,9 +35,9 @@ export default function EditContactForm() {
     },[contacts,id]);
 
   return (
-    <div className="flex flex-col justify-start items-center text-xl gap-16 h-full">
-        <h1 className="text-4xl font-bold p-2">Edit Contact Screen</h1>
-        <form className='flex flex-col gap-4 border-2 border-slate-100 p-8 bg-white drop-shadow-lg'>
+    <div className="flex flex-col justify-start items-center text-xl gap-4 sm:gap-16 h-full">
+        <h1 className='text-2xl sm:text-3xl font-bold text-center text-purple-700 pt-4'>Edit Contact</h1>
+        <form className='flex flex-col gap-4 border-2 border-slate-100  p-4 sm:p-8 bg-white drop-shadow-lg'>
             <div className='grid grid-cols-2'>
                 <label className="font-bold" htmlFor='firstName'>First Name: </label>
                 <input className='border-2 border-purple-700 p-1 rounded-lg' type="text" name="firstName" placeholder="First Name" value={firstName} onChange={(e)=>{setFirstName(e.target.value)}} />

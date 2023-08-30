@@ -13,18 +13,18 @@ function App() {
         {/* Header section of our application */}
         <header className="App-header">
           <h1 className="bg-white text-purple-900 text-center text-xl md:text-4xl p-4 sm:p-6 font-bold drop-shadow-lg">
-            Contact Management Application.
+            Contact Management Application
           </h1>
         </header>
 
         {/* Main section of our application */}
-        <main className="flex flex-col sm:flex-row w-full h-full">
+        <main className="flex flex-col sm:flex-row w-full">
 
           {/* Side menu component ( contact button and charts button) */}
           <Sidebar /> 
 
           {/* Right with Outlet to render other routed components */}
-          <div className="p-2 w-full">
+          <div className="w-full h-fit]">
             <Outlet /> {/* outlet from react-router-dom */}
           </div>
         </main>

@@ -16,7 +16,10 @@ export default function Contacts() {
 
   return (
           <>
-            <div className="flex">
+          <div>
+            <h1 className='text-2xl sm:text-3xl font-bold text-center text-purple-700 pt-4'>Contacts</h1>
+          </div>
+            <div className=" sm:flex p-4">
               <Button
                 value="Create New Contact"
                 action={(): void => {
@@ -26,11 +29,11 @@ export default function Contacts() {
             </div>
 
                 {/* Render if list is empty */}
-            {contactsList.length === 0 && <div className='flex justify-center items-center py-16'>
+            {contactsList.length === 0 && <div className='flex justify-center items-center py-16 px-4'>
                 <h1 className='text-4xl font-bold text-slate-400'>Empty! No contacts, Create now</h1>
               </div>
             }
-            <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 gap-2'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 gap-2 p-4'>
               {/* map all contacts and render them */}
               {contactsList.map((contactItem) => {
                     return (

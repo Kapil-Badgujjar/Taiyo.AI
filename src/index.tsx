@@ -13,6 +13,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import LineChart from './components/LineChart/LineChart';
 import LeafletMap from './components/LeafletMap/LeafletMap';
 import NoteFound from './components/NotFound/NoteFound';
+import FullView from './components/FullView/FullView';
 
 const routes = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const routes = createBrowserRouter([
         path: 'charts',
         element: <ChartsAndMaps />,
         children: [
+            {
+              path: 'full-view',
+              element: <FullView />
+            },
             {
               path: 'dashboard',
               element: <Dashboard />
