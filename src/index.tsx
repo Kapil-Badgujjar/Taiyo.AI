@@ -12,6 +12,7 @@ import ChartsAndMaps from './components/ChartsAndMaps/ChartsAndMaps';
 import Dashboard from './components/Dashboard/Dashboard';
 import LineChart from './components/LineChart/LineChart';
 import LeafletMap from './components/LeafletMap/LeafletMap';
+import NoteFound from './components/NotFound/NoteFound';
 
 const routes = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const routes = createBrowserRouter([
               element: <LeafletMap />
             }
         ]
+      },
+      {
+        path: '*',
+        element: <NoteFound />
       }
     ]
   }

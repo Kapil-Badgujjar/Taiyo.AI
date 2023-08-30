@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { RootState } from '../../app/store';
-import { v4 as uuidv4 } from 'uuid';        //uuid to generate unique identifier
 
+let count = 1;
 // contact type
 type contact = {
     id: string,
@@ -30,8 +30,8 @@ const contactSlice = createSlice({
 
         // add contact reducer
         addContact: (state,action): void => {
-            const id: string = uuidv4().toString();
-            console.log(action.payload);
+            const id: string = count.toString();
+            count++;
             state.contacts.push({...action.payload, id: id});
         },
 
