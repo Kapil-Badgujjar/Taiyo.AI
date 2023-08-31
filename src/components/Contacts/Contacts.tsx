@@ -33,7 +33,7 @@ export default function Contacts() {
                 <h1 className='text-4xl font-bold text-slate-400'>Empty! No contacts, Create now</h1>
               </div>
             }
-            <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 gap-2 p-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-2 p-4'>
               {/* map all contacts and render them */}
               {contactsList.map((contactItem) => {
                     return (
